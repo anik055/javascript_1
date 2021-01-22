@@ -1,3 +1,5 @@
+// https://github.com/anik055/javascript_1
+
 //1st function
 
 function kilometerToMeter (kilometer) {
@@ -22,9 +24,8 @@ function budgetCalculator (watch, phone, laptop) {
     else{
         return "unexpected input value";       // warning for unexpected value
     }
-    
 }
-console.log(budgetCalculator(2,1,0));
+console.log(budgetCalculator(2,1,3));
 
 
 //3rd function
@@ -49,7 +50,7 @@ function hotelCost (days) {
         return "unexpected input value";           // warning for unexpected value
     }
 }
-console.log(hotelCost(30));
+console.log(hotelCost(35));
 
 
 //4th function
@@ -73,4 +74,4 @@ function megaFriend(friends) {
         return "unexpected input value !! input an array of string"    // warning for unexpected value if input parameter is not an array of string
     }
 }
-console.log(megaFriend(['a','b','cd']));
+console.log(megaFriend(['anik','bunny','abdullah']));
